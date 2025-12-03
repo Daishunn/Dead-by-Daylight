@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DBD Form</title>
+        <link rel="stylesheet" href="/Final Project/CSS/dbdform.css">
+    </head>
+    <body>
+        <form method="GET">
+                
+            <fieldset>
+                <legend>Site Satisfaction</legend>
+                    <div>
+                        <label for="form_radio">Are you a new player?</label>
+                        <div>
+                            <input type="radio" form="form_radio" name="radio" value="Yes">
+                            <label>Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" form="form_radio" name="radio" value="No">
+                            <label>No</label>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="playtime">How long have you been playing Dead by Daylight?</label>
+                 <input type="text" id="playtime" name="playtime">
+                 <br>
+                 <br>
+                <div>
+                    <label for="form_textarea">Did you find this site useful?</label>
+                    <textarea id="useful" name="textarea"></textarea>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="form_range">Range:</label>
+                    <label>Not Useful</label>
+                    <input type="range" id="form_range" name="range">
+                    <label>Very Useful</label>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="form_textarea">What do you think should be added?</label>
+                    <textarea id="form_textarea" name="textarea"></textarea>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="form_textarea">What could be improved?</label>
+                    <textarea id="form_textarea" name="textarea"></textarea>
+                </div>
+                <br>
+                <br>
+
+                <button class="submit" type="sumbit" value="submit">Submit</button>
+               
+
+                 
+            </fieldset>
+        
+    </body>
+</html>

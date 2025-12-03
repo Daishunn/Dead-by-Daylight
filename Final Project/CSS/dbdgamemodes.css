@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to left,#000000, #fffefe);
+    color: white;
+    font-family: Kedebideri, sans-serif;
+}
+
+h1, h2 {
+    color: black;
+}
+
+p {
+    color: blue;
+}
+.maincards {
+    margin-right: 15px;
+}
+.posters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.card_image {
+    margin-right: 50px;
+}
+
+
+img {
+    width: 300px;
+}
+
+p {
+    font-size: 1em;
+}
+.title {
+    
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .posters {
+        grid-template-columns: 1fr 1fr ;
+        
+        
+    }
+
+
+}
+
+@media(max-width:600px) {
+    .posters {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.home {
+    width: 30px;
+}

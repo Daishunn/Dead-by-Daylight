@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://deadbydaylight.com/static/a5cdc5db3804f817df112184c81f5ead/93f85/dbd-gallery-background.jpg);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ h1 {
+   text-align: center;
+   font-size: 3em;
+   color: black;
+ }
+
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ img {
+   
+    width: 125px;
+    height: 100px;
+    
+ }
+
+ .Item {
+    font-weight: bolder;
+    font-size: 2em;
+    color: red;
+    
+    
+ }
+
+ .item_desc {
+   color: lightblue;
+
+ }
+
+ .status_effect {
+   font-weight: bold;
+   color: yellow;
+
+
+ }
+
+ .status_type {
+   font-weight: bold;
+   color: red;
+ }
+
+.status  {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+h2 {
+   color: lightskyblue;
+}
+ section {
+   border: 2px solid lightskyblue;
+   margin-top: 40px;
+ }
+
+.home , .top {
+   width: 30px;
+   height: 20px;
+}

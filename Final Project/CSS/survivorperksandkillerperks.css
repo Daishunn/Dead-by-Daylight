@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    
+  
+}
+
+.survivor_icon, .killer_icon {
+    width: 60px;
+    margin-right: 50px;
+    
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    
+   
+}
+
+
+section {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: red;
+}
+
+.top10:hover {
+    background-color: purple;
+    
+
+}
+
+.advanced:hover {
+    background-color: maroon;
+
+}
+
+
+h5 {
+    color: purple;
+}
+
+
+.home {
+    width: 30px;
+
+}
+
+.top {
+    width: 20px;
+    
+}
+
+

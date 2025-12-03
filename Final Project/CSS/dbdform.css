@@ -1,0 +1,28 @@
+
+legend {
+    font-weight: bold;
+    color: white;
+}
+
+
+#playtime, #useful {
+    margin-right: 50px;
+    width: 200px;
+}
+
+
+.submit {
+    width: 200px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(111, 212, 111);
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
